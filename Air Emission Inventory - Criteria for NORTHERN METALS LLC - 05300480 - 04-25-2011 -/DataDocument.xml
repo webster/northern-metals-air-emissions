@@ -1,0 +1,1978 @@
+<EIDataSet>
+  <xs:schema id="EIDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="EIDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Source">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FacilitySiteIdentifier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="FacilitySiteName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="80" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="InventoryYear" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NAICS_Code" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="150" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SourceType" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Confidential" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Portable">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="StreetAddress1">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="80" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="StreetAddress2" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="80" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="County">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="City">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="State">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ZipCode">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Latitude" type="xs:decimal" />
+                <xs:element name="Longitude" type="xs:decimal" />
+                <xs:element name="HorizontalCollectionMethod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="HorizontalAccuracyMeasure" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HorizontalAccuracyMeasureUnits" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="HorizontalReferenceDatum" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SourceMapScale" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ReferencePointCode" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PrincipalProduct" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NumberOfEmployees" type="xs:decimal" minOccurs="0" />
+                <xs:element name="FacilitySiteStatusCode" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="FacilitySiteStatusCodeYear" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="FacilitySiteComment" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="RowNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="SortKey" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Contact">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FirstName">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="80" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Title">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="80" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="StreetAddress1">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="80" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="StreetAddress2" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="80" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="City">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="State">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ZipCode">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EmailAddress">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="80" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PhoneNumber">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Extension" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="FaxNumber" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="RowNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="SortKey" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="EU">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="UnitIdentifier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Description">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Status">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EffectiveDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DesignCapacity" type="xs:decimal" />
+                <xs:element name="DesignCapacityUnits">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MaxRatedHeatInputCapacity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Confidential" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Comment" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="IsNew" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RowNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="SortKey" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Process">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="UnitIdentifier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="UnitDescription" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="80" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="UnitDescriptionIsDefault" type="xs:boolean" minOccurs="0" />
+                <xs:element name="EmissionsProcessIdentifier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="SourceClassificationCode">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ProcessDescription">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="80" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ActualHoursPerYear" type="xs:decimal" />
+                <xs:element name="AnnualAverageDaysPerWeek" type="xs:decimal" />
+                <xs:element name="AnnualAverageHoursPerDay" type="xs:decimal" />
+                <xs:element name="ActualWeeksPerYear" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PercentWinterActivity" type="xs:decimal" />
+                <xs:element name="PercentSpringActivity" type="xs:decimal" />
+                <xs:element name="PercentSummerActivity" type="xs:decimal" />
+                <xs:element name="PercentFallActivity" type="xs:decimal" />
+                <xs:element name="Confidential" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Comment" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ThroughputMaterial">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ThroughputAmount" type="xs:decimal" />
+                <xs:element name="ThroughputUnit">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ThroughputType">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="HeatingValue" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HeatingValueDenominatorUnits" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PercentAshContent" type="xs:decimal" />
+                <xs:element name="PercentSulfurContent" type="xs:decimal" />
+                <xs:element name="ActualHoursPerPeriod" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PeriodAverageDaysPerWeek" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PeriodAverageHoursPerDay" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ActualWeeksPerPeriod" type="xs:decimal" minOccurs="0" />
+                <xs:element name="IsNew" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RowNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="SortKey" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="CE">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PollutionControlEquipmentID" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Type">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="80" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EffectiveDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="IsNew" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RowNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="SortKey" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ControlMaterial">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PollutionControlEquipmentID" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Type">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="80" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EffectiveDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="PollutantsControlled">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CaptureEfficiency" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ControlEfficiency" type="xs:decimal" minOccurs="0" />
+                <xs:element name="IsNew" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RowNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="SortKey" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ControlApproach">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="UnitIdentifier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EmissionsProcessIdentifier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="FlowPercentage" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ControlEquipmentID1" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ControlEquipmentID2" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ControlEquipmentID3" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ControlEquipmentID4" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ControlEquipmentID5" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ControlEquipmentID6" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ControlEquipmentID7" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ControlEquipmentID8" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ControlEquipmentID9" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ControlEquipmentID10" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Comment" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="IsNew" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RowNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="SortKey" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="StackFugitive">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ReleasePointIdentifier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EffectiveDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Type">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Description" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="StackHeight" type="xs:decimal" />
+                <xs:element name="StackDiameter" type="xs:decimal" />
+                <xs:element name="ExitGasFlowRate" type="xs:decimal" />
+                <xs:element name="ExitGasTemperature" type="xs:decimal" />
+                <xs:element name="FugitiveHeight" type="xs:decimal" minOccurs="0" />
+                <xs:element name="FugitiveWidth" type="xs:decimal" minOccurs="0" />
+                <xs:element name="FugitiveLength" type="xs:decimal" minOccurs="0" />
+                <xs:element name="FugitiveAngle" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Comment" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Status">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Latitude" type="xs:decimal" />
+                <xs:element name="Longitude" type="xs:decimal" />
+                <xs:element name="HorizontalAccuracy" type="xs:decimal" />
+                <xs:element name="HorizontalAccuracyUnits" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="HorizontalCollectionMethod">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="GeographicReferencePoint">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DataCollectionDate" type="xs:dateTime" />
+                <xs:element name="GeographicComment" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="IsNew" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RowNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="SortKey" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="StackFugitiveApportionment">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="UnitIdentifier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EmissionsProcessIdentifier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ReleasePointIdentifier">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Flow" type="xs:decimal" />
+                <xs:element name="Comment" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="IsNew" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RowNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="SortKey" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Emission">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="UnitIdentifier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EmissionsProcessIdentifier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SCC" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PollutantCode">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EmissionCalculationMethodCode">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EmissionFactor" type="xs:decimal" />
+                <xs:element name="EmissionFactorNumeratorUnits" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EmissionFactorDenominatorUnits" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EmissionFactorText" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ThroughputValue" type="xs:decimal" />
+                <xs:element name="ThroughputValueIsDefault" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ThroughputUnits">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ThroughputUnitsIsDefault" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ThroughputMaterialCode">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ThroughputMaterialCodeIsDefault" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ThroughputType">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ThroughputTypeIsDefault" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TotalCaptureEfficiency" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TotalCaptureEfficiencyIsDefault" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TotalControlEfficiency" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TotalControlEfficiencyIsDefault" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TotalCombinedCaptureControlEfficiency" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TotalCombinedCaptureControlEfficiencyIsDefault" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TotalEmissions" type="xs:decimal" />
+                <xs:element name="TotalEmissionsIsDefault" type="xs:boolean" minOccurs="0" />
+                <xs:element name="EmissionsComment" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="RowNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="SortKey" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Source>
+    <FacilitySiteIdentifier>05300480</FacilitySiteIdentifier>
+    <FacilitySiteName>Northern Metals LLC</FacilitySiteName>
+    <InventoryYear>2010</InventoryYear>
+    <NAICS_Code>42393 - Recyclable Material Merchant Wholesalers</NAICS_Code>
+    <SourceType>POINT</SourceType>
+    <Confidential>N</Confidential>
+    <Portable>N</Portable>
+    <StreetAddress1>2800 Pacific St N</StreetAddress1>
+    <County>HENNEPIN</County>
+    <City>Minneapolis</City>
+    <State>MINNESOTA</State>
+    <ZipCode>55411</ZipCode>
+    <Latitude>45.00834010</Latitude>
+    <Longitude>-93.27722320</Longitude>
+    <HorizontalCollectionMethod>Address matching-house number</HorizontalCollectionMethod>
+    <HorizontalAccuracyMeasure>150</HorizontalAccuracyMeasure>
+    <HorizontalAccuracyMeasureUnits>m</HorizontalAccuracyMeasureUnits>
+    <HorizontalReferenceDatum>World Geodetic System of 1984</HorizontalReferenceDatum>
+    <SourceMapScale>1:100000</SourceMapScale>
+    <ReferencePointCode>Boundary point for a Facility or System</ReferencePointCode>
+    <PrincipalProduct>Scrap Metal Recycling</PrincipalProduct>
+    <NumberOfEmployees>50</NumberOfEmployees>
+    <FacilitySiteStatusCode>Operating</FacilitySiteStatusCode>
+    <RowNumber>0</RowNumber>
+    <SortKey />
+  </Source>
+  <Contact>
+    <FirstName>Thomas Swafford</FirstName>
+    <Title>EHS Director</Title>
+    <StreetAddress1>2800 Pacific St N</StreetAddress1>
+    <City>Minneapolis</City>
+    <State>MINNESOTA</State>
+    <ZipCode>55411</ZipCode>
+    <EmailAddress>toms@nmrecycling.com</EmailAddress>
+    <PhoneNumber>6125299221</PhoneNumber>
+    <FaxNumber>6125292548</FaxNumber>
+    <RowNumber>0</RowNumber>
+    <SortKey />
+  </Contact>
+  <EU>
+    <UnitIdentifier>EU001</UnitIdentifier>
+    <Description>Kondirator Metal Shredder</Description>
+    <Status>Operating</Status>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <MaxRatedHeatInputCapacity>0</MaxRatedHeatInputCapacity>
+    <Confidential>N</Confidential>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU001</SortKey>
+  </EU>
+  <EU>
+    <UnitIdentifier>EU002</UnitIdentifier>
+    <Description>Cascade Cleaning System</Description>
+    <Status>Operating</Status>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <MaxRatedHeatInputCapacity>0</MaxRatedHeatInputCapacity>
+    <Confidential>N</Confidential>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU002</SortKey>
+  </EU>
+  <EU>
+    <UnitIdentifier>FS003</UnitIdentifier>
+    <Description>Raw material handling</Description>
+    <Status>Operating</Status>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <Confidential>N</Confidential>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>FS003</SortKey>
+  </EU>
+  <Process>
+    <UnitIdentifier>EU001</UnitIdentifier>
+    <UnitDescription>Kondirator Metal Shredder</UnitDescription>
+    <UnitDescriptionIsDefault>true</UnitDescriptionIsDefault>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <StartDate>2009-06-18T00:00:00-05:00</StartDate>
+    <SourceClassificationCode>31401101</SourceClassificationCode>
+    <ProcessDescription>Scrap metal shredding</ProcessDescription>
+    <ActualHoursPerYear>1900</ActualHoursPerYear>
+    <AnnualAverageDaysPerWeek>4</AnnualAverageDaysPerWeek>
+    <AnnualAverageHoursPerDay>9</AnnualAverageHoursPerDay>
+    <PercentWinterActivity>18</PercentWinterActivity>
+    <PercentSpringActivity>26</PercentSpringActivity>
+    <PercentSummerActivity>29</PercentSummerActivity>
+    <PercentFallActivity>27</PercentFallActivity>
+    <Confidential>N</Confidential>
+    <ThroughputMaterial>SCRAP</ThroughputMaterial>
+    <ThroughputAmount>228334</ThroughputAmount>
+    <ThroughputUnit>TON</ThroughputUnit>
+    <ThroughputType>Input</ThroughputType>
+    <PercentAshContent>0</PercentAshContent>
+    <PercentSulfurContent>0</PercentSulfurContent>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU001/PD001</SortKey>
+  </Process>
+  <Process>
+    <UnitIdentifier>EU002</UnitIdentifier>
+    <UnitDescription>Cascade Cleaning System</UnitDescription>
+    <UnitDescriptionIsDefault>true</UnitDescriptionIsDefault>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <StartDate>2009-06-18T00:00:00-05:00</StartDate>
+    <SourceClassificationCode>31499999</SourceClassificationCode>
+    <ProcessDescription>Cascade Cleaning System</ProcessDescription>
+    <ActualHoursPerYear>1900</ActualHoursPerYear>
+    <AnnualAverageDaysPerWeek>4</AnnualAverageDaysPerWeek>
+    <AnnualAverageHoursPerDay>9</AnnualAverageHoursPerDay>
+    <PercentWinterActivity>18</PercentWinterActivity>
+    <PercentSpringActivity>26</PercentSpringActivity>
+    <PercentSummerActivity>29</PercentSummerActivity>
+    <PercentFallActivity>27</PercentFallActivity>
+    <Confidential>N</Confidential>
+    <ThroughputMaterial>MATERIAL</ThroughputMaterial>
+    <ThroughputAmount>228334</ThroughputAmount>
+    <ThroughputUnit>TON</ThroughputUnit>
+    <ThroughputType>Input</ThroughputType>
+    <PercentAshContent>0</PercentAshContent>
+    <PercentSulfurContent>0</PercentSulfurContent>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU002/PD001</SortKey>
+  </Process>
+  <Process>
+    <UnitIdentifier>FS003</UnitIdentifier>
+    <UnitDescription>Raw material handling</UnitDescription>
+    <UnitDescriptionIsDefault>true</UnitDescriptionIsDefault>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <StartDate>2009-06-18T00:00:00-05:00</StartDate>
+    <SourceClassificationCode>31499999</SourceClassificationCode>
+    <ProcessDescription>Scrap metal handling</ProcessDescription>
+    <ActualHoursPerYear>1900</ActualHoursPerYear>
+    <AnnualAverageDaysPerWeek>4</AnnualAverageDaysPerWeek>
+    <AnnualAverageHoursPerDay>9</AnnualAverageHoursPerDay>
+    <PercentWinterActivity>18</PercentWinterActivity>
+    <PercentSpringActivity>26</PercentSpringActivity>
+    <PercentSummerActivity>29</PercentSummerActivity>
+    <PercentFallActivity>27</PercentFallActivity>
+    <Confidential>N</Confidential>
+    <ThroughputMaterial>MATERIAL</ThroughputMaterial>
+    <ThroughputAmount>228334</ThroughputAmount>
+    <ThroughputUnit>TON</ThroughputUnit>
+    <ThroughputType>Input</ThroughputType>
+    <PercentAshContent>0</PercentAshContent>
+    <PercentSulfurContent>0</PercentSulfurContent>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>FS003/PD001</SortKey>
+  </Process>
+  <CE>
+    <PollutionControlEquipmentID>CE001</PollutionControlEquipmentID>
+    <Type>210 - Centrifugal Collector</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE001</SortKey>
+  </CE>
+  <CE>
+    <PollutionControlEquipmentID>CE002</PollutionControlEquipmentID>
+    <Type>210 - Centrifugal Collector</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE002</SortKey>
+  </CE>
+  <CE>
+    <PollutionControlEquipmentID>CE003</PollutionControlEquipmentID>
+    <Type>127 - Fabric Filter</Type>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE003</SortKey>
+  </CE>
+  <CE>
+    <PollutionControlEquipmentID>CE004</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE004</SortKey>
+  </CE>
+  <CE>
+    <PollutionControlEquipmentID>CE005</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE005</SortKey>
+  </CE>
+  <CE>
+    <PollutionControlEquipmentID>CE006</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE006</SortKey>
+  </CE>
+  <CE>
+    <PollutionControlEquipmentID>CE007</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE007</SortKey>
+  </CE>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE001</PollutionControlEquipmentID>
+    <Type>210 - Centrifugal Collector</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>PM</PollutantsControlled>
+    <CaptureEfficiency>100</CaptureEfficiency>
+    <ControlEfficiency>93.83</ControlEfficiency>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE001/PM</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE001</PollutionControlEquipmentID>
+    <Type>210 - Centrifugal Collector</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>PM10-PRI</PollutantsControlled>
+    <CaptureEfficiency>100</CaptureEfficiency>
+    <ControlEfficiency>93.83</ControlEfficiency>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE001/PM10-PRI</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE002</PollutionControlEquipmentID>
+    <Type>210 - Centrifugal Collector</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>PM</PollutantsControlled>
+    <CaptureEfficiency>100</CaptureEfficiency>
+    <ControlEfficiency>99.90</ControlEfficiency>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE002/PM</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE002</PollutionControlEquipmentID>
+    <Type>210 - Centrifugal Collector</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>PM10-PRI</PollutantsControlled>
+    <CaptureEfficiency>100</CaptureEfficiency>
+    <ControlEfficiency>99.90</ControlEfficiency>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE002/PM10-PRI</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE003</PollutionControlEquipmentID>
+    <Type>127 - Fabric Filter</Type>
+    <PollutantsControlled>PM</PollutantsControlled>
+    <CaptureEfficiency>100</CaptureEfficiency>
+    <ControlEfficiency>99.61</ControlEfficiency>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE003/PM</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE003</PollutionControlEquipmentID>
+    <Type>127 - Fabric Filter</Type>
+    <PollutantsControlled>PM10-PRI</PollutantsControlled>
+    <CaptureEfficiency>100</CaptureEfficiency>
+    <ControlEfficiency>99.61</ControlEfficiency>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE003/PM10-PRI</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE004</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>CO</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE004/CO</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE004</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>LEAD</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE004/LEAD</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE004</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>NOX</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE004/NOX</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE004</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>SO2</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE004/SO2</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE004</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>VOC</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE004/VOC</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE004</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>PM</PollutantsControlled>
+    <CaptureEfficiency>100</CaptureEfficiency>
+    <ControlEfficiency>94</ControlEfficiency>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE004/PM</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE004</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>PM10-PRI</PollutantsControlled>
+    <CaptureEfficiency>100</CaptureEfficiency>
+    <ControlEfficiency>84</ControlEfficiency>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE004/PM10-PRI</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE005</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>CO</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE005/CO</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE005</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>LEAD</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE005/LEAD</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE005</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>NOX</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE005/NOX</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE005</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>SO2</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE005/SO2</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE005</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>VOC</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE005/VOC</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE005</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>PM</PollutantsControlled>
+    <CaptureEfficiency>100</CaptureEfficiency>
+    <ControlEfficiency>94</ControlEfficiency>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE005/PM</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE005</PollutionControlEquipmentID>
+    <Type>141 - Wet Scrubber</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>PM10-PRI</PollutantsControlled>
+    <CaptureEfficiency>100</CaptureEfficiency>
+    <ControlEfficiency>84</ControlEfficiency>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE005/PM10-PRI</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE006</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>CO</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE006/CO</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE006</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>LEAD</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE006/LEAD</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE006</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>NOX</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE006/NOX</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE006</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>SO2</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE006/SO2</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE006</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>VOC</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE006/VOC</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE006</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>PM</PollutantsControlled>
+    <CaptureEfficiency>100</CaptureEfficiency>
+    <ControlEfficiency>99</ControlEfficiency>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE006/PM</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE006</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>PM10-PRI</PollutantsControlled>
+    <CaptureEfficiency>100</CaptureEfficiency>
+    <ControlEfficiency>93</ControlEfficiency>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE006/PM10-PRI</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE007</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>CO</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE007/CO</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE007</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>LEAD</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE007/LEAD</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE007</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>NOX</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE007/NOX</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE007</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>SO2</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE007/SO2</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE007</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>VOC</PollutantsControlled>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE007/VOC</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE007</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>PM</PollutantsControlled>
+    <CaptureEfficiency>100</CaptureEfficiency>
+    <ControlEfficiency>99</ControlEfficiency>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE007/PM</SortKey>
+  </ControlMaterial>
+  <ControlMaterial>
+    <PollutionControlEquipmentID>CE007</PollutionControlEquipmentID>
+    <Type>100 - Baghouse</Type>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <PollutantsControlled>PM10-PRI</PollutantsControlled>
+    <CaptureEfficiency>100</CaptureEfficiency>
+    <ControlEfficiency>93</ControlEfficiency>
+    <IsNew>true</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>CE007/PM10-PRI</SortKey>
+  </ControlMaterial>
+  <ControlApproach>
+    <UnitIdentifier>EU001</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <FlowPercentage>100</FlowPercentage>
+    <ControlEquipmentID1>CE001</ControlEquipmentID1>
+    <ControlEquipmentID2>CE004</ControlEquipmentID2>
+    <ControlEquipmentID3>CE006</ControlEquipmentID3>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU001/PD001/CE001</SortKey>
+  </ControlApproach>
+  <ControlApproach>
+    <UnitIdentifier>EU002</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <FlowPercentage>100</FlowPercentage>
+    <ControlEquipmentID1>CE002</ControlEquipmentID1>
+    <ControlEquipmentID2>CE005</ControlEquipmentID2>
+    <ControlEquipmentID3>CE007</ControlEquipmentID3>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU002/PD001/CE002</SortKey>
+  </ControlApproach>
+  <StackFugitive>
+    <ReleasePointIdentifier>SV001</ReleasePointIdentifier>
+    <EffectiveDate>2009-06-18T00:00:00-05:00</EffectiveDate>
+    <Type>Vertical</Type>
+    <StackHeight>68</StackHeight>
+    <StackDiameter>5.8</StackDiameter>
+    <ExitGasFlowRate>94000</ExitGasFlowRate>
+    <ExitGasTemperature>66</ExitGasTemperature>
+    <Comment>Combined stack for EU001 and EU002</Comment>
+    <Status>Operating</Status>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>SV001</SortKey>
+  </StackFugitive>
+  <StackFugitiveApportionment>
+    <UnitIdentifier>EU001</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <ReleasePointIdentifier>SV001</ReleasePointIdentifier>
+    <Flow>100</Flow>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU001/PD001/SV001</SortKey>
+  </StackFugitiveApportionment>
+  <StackFugitiveApportionment>
+    <UnitIdentifier>EU002</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <ReleasePointIdentifier>SV001</ReleasePointIdentifier>
+    <Flow>100</Flow>
+    <IsNew>false</IsNew>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU002/PD001/SV001</SortKey>
+  </StackFugitiveApportionment>
+  <Emission>
+    <UnitIdentifier>EU001</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31401101</SCC>
+    <PollutantCode>CO</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>SCRAP</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiency>100.0</TotalCaptureEfficiency>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiency>0</TotalControlEfficiency>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU001/PD001/CO</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>EU001</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31401101</SCC>
+    <PollutantCode>NOX</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>SCRAP</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiency>100.0</TotalCaptureEfficiency>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiency>0</TotalControlEfficiency>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU001/PD001/NOX</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>EU001</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31401101</SCC>
+    <PollutantCode>LEAD</PollutantCode>
+    <EmissionCalculationMethodCode>Stack Test</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0000042</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <EmissionFactorText>12/02/2009</EmissionFactorText>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>SCRAP</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiency>100.0</TotalCaptureEfficiency>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiency>0</TotalControlEfficiency>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0.0004795</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <EmissionsComment>Stack test was from combined stack. All emissions are accounted for at EU001.</EmissionsComment>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU001/PD001/LEAD</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>EU001</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31401101</SCC>
+    <PollutantCode>PM10-PRI</PollutantCode>
+    <EmissionCalculationMethodCode>Stack Test</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0132</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <EmissionFactorText>12/22/2009</EmissionFactorText>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>SCRAP</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiency>100.0</TotalCaptureEfficiency>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiency>0</TotalControlEfficiency>
+    <TotalControlEfficiencyIsDefault>false</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>1.507</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <EmissionsComment>Stack test was from combined stack. All emissions are accounted for at EU001.</EmissionsComment>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU001/PD001/PM10-PRI</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>EU001</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31401101</SCC>
+    <PollutantCode>PM</PollutantCode>
+    <EmissionCalculationMethodCode>Stack Test</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0087</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <EmissionFactorText>12/22/2009</EmissionFactorText>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>SCRAP</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiency>100.0</TotalCaptureEfficiency>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiency>0</TotalControlEfficiency>
+    <TotalControlEfficiencyIsDefault>false</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0.9933</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <EmissionsComment>Stack test was from combined stack. All emissions are accounted for at EU001.</EmissionsComment>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU001/PD001/PM</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>EU001</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31401101</SCC>
+    <PollutantCode>SO2</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>SCRAP</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiency>100.0</TotalCaptureEfficiency>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiency>0</TotalControlEfficiency>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU001/PD001/SO2</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>EU001</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31401101</SCC>
+    <PollutantCode>VOC</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>SCRAP</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiency>100.0</TotalCaptureEfficiency>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiency>0</TotalControlEfficiency>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU001/PD001/VOC</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>EU002</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31499999</SCC>
+    <PollutantCode>CO</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>MATERIAL</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiency>100.0</TotalCaptureEfficiency>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiency>0</TotalControlEfficiency>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU002/PD001/CO</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>EU002</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31499999</SCC>
+    <PollutantCode>NOX</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>MATERIAL</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiency>100.0</TotalCaptureEfficiency>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiency>0</TotalControlEfficiency>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU002/PD001/NOX</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>EU002</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31499999</SCC>
+    <PollutantCode>LEAD</PollutantCode>
+    <EmissionCalculationMethodCode>Stack Test</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <EmissionFactorText>12/02/2009</EmissionFactorText>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>MATERIAL</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiency>100.0</TotalCaptureEfficiency>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiency>0</TotalControlEfficiency>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <EmissionsComment>Stack test was from combined stack. All emissions are accounted for at EU001.</EmissionsComment>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU002/PD001/LEAD</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>EU002</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31499999</SCC>
+    <PollutantCode>PM10-PRI</PollutantCode>
+    <EmissionCalculationMethodCode>Stack Test</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <EmissionFactorText>12/22/2009</EmissionFactorText>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>MATERIAL</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiency>100.0</TotalCaptureEfficiency>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiency>0</TotalControlEfficiency>
+    <TotalControlEfficiencyIsDefault>false</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <EmissionsComment>Stack test was from combined stack. All emissions are accounted for at EU001.</EmissionsComment>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU002/PD001/PM10-PRI</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>EU002</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31499999</SCC>
+    <PollutantCode>PM</PollutantCode>
+    <EmissionCalculationMethodCode>Stack Test</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <EmissionFactorText>12/22/2009</EmissionFactorText>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>MATERIAL</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiency>100.0</TotalCaptureEfficiency>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiency>0</TotalControlEfficiency>
+    <TotalControlEfficiencyIsDefault>false</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <EmissionsComment>Stack test was from combined stack. All emissions are accounted for at EU001.</EmissionsComment>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU002/PD001/PM</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>EU002</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31499999</SCC>
+    <PollutantCode>SO2</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>MATERIAL</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiency>100.0</TotalCaptureEfficiency>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiency>0</TotalControlEfficiency>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU002/PD001/SO2</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>EU002</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31499999</SCC>
+    <PollutantCode>VOC</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>MATERIAL</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiency>100.0</TotalCaptureEfficiency>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiency>0</TotalControlEfficiency>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>EU002/PD001/VOC</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>FS003</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31499999</SCC>
+    <PollutantCode>CO</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>MATERIAL</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>FS003/PD001/CO</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>FS003</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31499999</SCC>
+    <PollutantCode>NOX</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>MATERIAL</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>FS003/PD001/NOX</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>FS003</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31499999</SCC>
+    <PollutantCode>LEAD</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>MATERIAL</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>FS003/PD001/LEAD</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>FS003</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31499999</SCC>
+    <PollutantCode>PM10-PRI</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Other than Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0012</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <EmissionFactorText>WebFIRE, Industrial Processes, Primary Metal Production, Iron Production, Unload Ore, Pellets</EmissionFactorText>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>MATERIAL</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0.137</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>FS003/PD001/PM10-PRI</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>FS003</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31499999</SCC>
+    <PollutantCode>PM</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Other than Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0012</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <EmissionFactorText>WebFIRE, Industrial Processes, Primary Metal Production, Iron Production, Unload Ore, Pellets</EmissionFactorText>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>MATERIAL</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0.137</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>FS003/PD001/PM</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>FS003</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31499999</SCC>
+    <PollutantCode>SO2</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>MATERIAL</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>FS003/PD001/SO2</SortKey>
+  </Emission>
+  <Emission>
+    <UnitIdentifier>FS003</UnitIdentifier>
+    <EmissionsProcessIdentifier>PD001</EmissionsProcessIdentifier>
+    <SCC>31499999</SCC>
+    <PollutantCode>VOC</PollutantCode>
+    <EmissionCalculationMethodCode>USEPA - Uncontrolled Emission Factors: Default</EmissionCalculationMethodCode>
+    <EmissionFactor>0.0</EmissionFactor>
+    <EmissionFactorNumeratorUnits>LB</EmissionFactorNumeratorUnits>
+    <EmissionFactorDenominatorUnits>TON</EmissionFactorDenominatorUnits>
+    <ThroughputValue>228334</ThroughputValue>
+    <ThroughputValueIsDefault>true</ThroughputValueIsDefault>
+    <ThroughputUnits>TON</ThroughputUnits>
+    <ThroughputUnitsIsDefault>true</ThroughputUnitsIsDefault>
+    <ThroughputMaterialCode>MATERIAL</ThroughputMaterialCode>
+    <ThroughputMaterialCodeIsDefault>true</ThroughputMaterialCodeIsDefault>
+    <ThroughputType>Input</ThroughputType>
+    <ThroughputTypeIsDefault>true</ThroughputTypeIsDefault>
+    <TotalCaptureEfficiencyIsDefault>true</TotalCaptureEfficiencyIsDefault>
+    <TotalControlEfficiencyIsDefault>true</TotalControlEfficiencyIsDefault>
+    <TotalCombinedCaptureControlEfficiency>0</TotalCombinedCaptureControlEfficiency>
+    <TotalCombinedCaptureControlEfficiencyIsDefault>true</TotalCombinedCaptureControlEfficiencyIsDefault>
+    <TotalEmissions>0</TotalEmissions>
+    <TotalEmissionsIsDefault>true</TotalEmissionsIsDefault>
+    <RowNumber>0</RowNumber>
+    <SortKey>FS003/PD001/VOC</SortKey>
+  </Emission>
+</EIDataSet>

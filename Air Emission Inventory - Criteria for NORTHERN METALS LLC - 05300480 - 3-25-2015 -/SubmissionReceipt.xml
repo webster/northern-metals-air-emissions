@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<SubmissionReceipt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileAttachments>
+    <FileAttachmentReceiptInformation>
+      <DocumentType>DataDocument</DocumentType>
+      <FileName>DataDocument.xml</FileName>
+      <Md5Hash>472ac8e8843d9d186e2ddd9cea90d274</Md5Hash>
+    </FileAttachmentReceiptInformation>
+    <FileAttachmentReceiptInformation>
+      <DocumentType>HumanReadableDataDocument</DocumentType>
+      <FileName>AirEmissionInventory.xls</FileName>
+      <Md5Hash>363973db6285671fe0befbc487e58838</Md5Hash>
+    </FileAttachmentReceiptInformation>
+  </FileAttachments>
+  <ConfirmationNumber>73292299</ConfirmationNumber>
+  <DateOfSubmission>2015-03-25T11:50:04.0497448-05:00</DateOfSubmission>
+  <UserFullName>Stephen Ettinger</UserFullName>
+  <AccountNumber>59436091</AccountNumber>
+  <EMail>settinger@nmrecycling.com</EMail>
+  <IPAddress>85.90.252.233</IPAddress>
+  <AuthorizationNumber>59439753</AuthorizationNumber>
+</SubmissionReceipt>
